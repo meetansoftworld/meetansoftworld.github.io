@@ -37,7 +37,7 @@
                 <nav class="bringer-nav">
                     <ul class="main-menu" data-stagger-appear="fade-down" data-stagger-delay="75">
                         <li class="current-menu-parent">
-                            <a href="#">Home</a>
+                            <a href="index.html">Home</a>
                             <ul class="sub-menu">
                                 <li>
                                     <a href="index.html">Home 01</a>
@@ -54,13 +54,13 @@
                                 <li>
                                     <a href="home05.html">Home 05</a>
                                 </li>
-                                <li>
+                                <li class="current-menu-item">
                                     <a href="home06.html">Home 06</a>
                                 </li>
                                 <li>
                                     <a href="home07.html">Home 07</a>
                                 </li>
-                                <li class="current-menu-item">
+                                <li>
                                     <a href="home08.html">Home 08</a>
                                 </li>
                             </ul>
@@ -157,65 +157,121 @@
         <div class="stg-container">
             <!-- Hero Section -->
             <section>
-                <div class="bringer-hero-block bringer-hero-type08">
-                    <!-- Main Row -->
-                    <div class="stg-row stg-valign-bottom stg-bottom-gap-l">
-                        <div class="stg-col-6 stg-tp-bottom-gap stg-m-bottom-gap-l" data-unload="fade-left">
-                            <!-- Title -->
-                            <h1 class="bringer-page-title m-align-center" data-split-appear="fade-right">Unleash your Creativity</h1>
+                <div class="bringer-hero-block bringer-hero-type06">
+                    <div class="bringer-bento-grid stg-bottom-gap">
+                        <div class="is-large bringer-masked-block" data-appear="fade-right" data-unload="fade-left">
+                            <div class="bringer-bento-hero-media bringer-masked-media" data-bg-src="img/home/home06-background.jpg">
+                                <!-- Title -->
+                                <h1 class="bringer-page-title">Unleash your Creativity</h1>
+                                <!-- Description -->
+                                <p class="bringer-highlight">We help creative agencies, designers, and other creative people showcase their work and connect with clients.</p>
+                            </div>
+                            <div class="bringer-masked-content at-bottom-right">
+                                <a href="#page06" class="bringer-square-button" data-appear="zoom-in" data-delay="100">
+                                    <span class="bringer-icon bringer-icon-arrow-down"></span>
+                                </a>
+                            </div>
                         </div>
-                        <div class="stg-col-6 stg-tp-col-12" data-unload="fade-right">
-                            <p class="bringer-highlight align-right tp-align-center" data-appear="fade-left">We are a passionate team of designers and developers who believe in the power of creativity. We help creative professionals create a strong online presence that showcases their work and tells a story.</p>
-                            <!-- Subscribe Form -->
-                            <form action="mail-short.php" method="post" data-fill-error="Please, fill out the form." class="bringer-contact-form is-short" data-appear="fade-left" data-delay="100">
-                                <div class="bringer-form-content bringer-hero-form">
-                                    <input type="email" id="subscribe_email" name="subscribe_email" placeholder="email@example.com" required>
-                                    <button type="submit">
-                                        <span class="bringer-icon bringer-icon-arrow-submit"></span>
-                                    </button>
-                                    <div class="bringer-contact-form__response"></div>
-                                </div>
-                                <span class="bringer-form-spinner"></span>
-                            </form>
+                        <div class="is-small" data-appear="zoom-out" data-delay="100" data-unload="zoom-out">
+                            <img class="bringer-lazy" src="img/null.png" data-src="img/portfolio/portfolio04.jpg" alt="Product 04" width="1200" height="1200">
                         </div>
-                    </div><!-- .stg-row -->
-
-                    <!-- Media -->
-                    <div class="bringer-hero-media-wrap stg-bottom-gap stg-tp-bottom-gap-l" data-appear="fade-up" data-unload="zoom-out">
-                        <div class="bringer-parallax-media">
-                            <img class="bringer-lazy" src="img/null.png" data-src="img/home/home08-hero.jpg" alt="Unleash your Creativity" width="1920" height="640">
+                        <div class="is-small" data-appear="zoom-out" data-delay="200" data-unload="zoom-out">
+                            <img class="bringer-lazy" src="img/null.png" data-src="img/portfolio/portfolio08.jpg" alt="Product 08" width="1200" height="1200">
                         </div>
-                    </div>
-                    
-                    <!-- Partners Section -->
-                    <div class="bringer-partners">
-                        <span class="bringer-label" data-appear="fade-up" data-unload="fade-up">Trusted by Industry Leaders</span>
-                        <div class="bringer-grid-6cols bringer-tp-grid-3cols bringer-m-grid-2cols stg-top-gap-s" data-stagger-appear="fade-up" data-stagger-unload="fade-up" data-stagger-delay="100" data-delay="100">
-                            <div class="bringer-block">
-                                <img src="img/partners/partner01.png" alt="Partner Logo">
-                            </div>
-                            <div class="bringer-block">
-                                <img src="img/partners/partner02.png" alt="Partner Logo">
-                            </div>
-                            <div class="bringer-block">
-                                <img src="img/partners/partner03.png" alt="Partner Logo">
-                            </div>
-                            <div class="bringer-block">
-                                <img src="img/partners/partner04.png" alt="Partner Logo">
-                            </div>
-                            <div class="bringer-block">
-                                <img src="img/partners/partner05.png" alt="Partner Logo">
-                            </div>
-                            <div class="bringer-block">
-                                <img src="img/partners/partner06.png" alt="Partner Logo">
-                            </div>
+                        <div class="is-medium bringer-block stg-vertical-space-between" data-appear="fade-left" data-delay="300" data-unload="fade-right">
+                            <h3>Welcome to Bringer, where creativity meets expertise.</h3>
+                            <p>We are a team of passionate and experienced designers, developers, and marketers who specialize in helping businesses of all sizes achieve their goals. We believe that creativity is the key, and we are committed to helping our clients.</p>
                         </div>
                     </div>
                 </div><!-- .bringer-hero-block -->
             </section>
 
+            <!-- Section: Counters -->
+            <section data-padding="bottom">
+                <div class="bringer-grid-4cols bringer-tp-grid-2cols bringer-m-grid-2cols stg-m-small-gap" data-stagger-appear="zoom-in" data-stagger-unload="zoom-out">
+                    <!-- Counter Item -->
+                    <div class="bringer-counter bringer-block" data-delay="3000">
+                        <div class="bringer-counter-number" data-suffix="K+">8</div>
+                        <div class="bringer-counter-label">Happy Customers</div>
+                    </div><!-- .bringer-counter -->
+                    <!-- Counter Item -->
+                    <div class="bringer-counter bringer-block" data-delay="3000">
+                        <div class="bringer-counter-number" data-suffix="">420</div>
+                        <div class="bringer-counter-label">Complated Projects</div>
+                    </div><!-- .bringer-counter -->
+                    <!-- Counter Item -->
+                    <div class="bringer-counter bringer-block" data-delay="3000">
+                        <div class="bringer-counter-number" data-suffix="">24</div>
+                        <div class="bringer-counter-label">Awwwards Won</div>
+                    </div><!-- .bringer-counter -->
+                    <!-- Counter Item -->
+                    <div class="bringer-counter bringer-block is-accented" data-delay="3000">
+                        <div class="bringer-counter-number" data-suffix="+">12</div>
+                        <div class="bringer-counter-label">Years of Experience</div>
+                    </div><!-- .bringer-counter -->
+                </div><!-- .bringer-grid -->
+            </section>
+
+            <!-- Section: Services -->
+            <section class="backlight-top" id="page06">
+                <!-- Section Title -->
+                <div class="stg-row bringer-section-title">
+                    <div class="stg-col-8 stg-offset-2">
+                        <div class="align-center">
+                            <h2 data-appear="fade-up" data-unload="fade-up">Our Services</h2>
+                            <p class="bringer-large-text" data-appear="fade-up" data-unload="fade-up" data-delay="100">We offer a wide range of creative services to help businesses of all sizes achieve their goals. Our services include:</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- List with Preview -->
+                <div class="bringer-list-with-preview" data-preview-position="left" data-unload="fade-up" data-delay="200">
+                    <div class="bringer-lwp-roster">
+                        <!-- Item 01 -->
+                        <div class="bringer-lwp-item bringer-block" data-appear="fade-left">
+                            <img src="img/home/service01.jpg" alt="Branding" width="800" height="1200">
+                            <div class="bringer-lwp-item-content">
+                                <h5>Branding<span class="bringer-accent">.</span></h5>
+                                <p>We weave visual stories and craft strategic messaging that resonate at heartstrings, build unwavering trust, and turn customers into fervent brand champions.</p>
+                            </div>
+                        </div>
+                                        
+                        <!-- Item 02 -->
+                        <div class="bringer-lwp-item bringer-block" data-appear="fade-left">
+                            <img src="img/home/service02.jpg" alt="Marketing" width="800" height="1200">
+                            <div class="bringer-lwp-item-content">
+                                <h5>Marketing<span class="bringer-accent">.</span></h5>
+                                <p>We design data-driven campaigns that crackle with energy, ignite engagement like wildfire, and turn clicks into conversions. We're the storm that promote your brand.</p>
+                            </div>
+                        </div>
+                                    
+                        <!-- Item 03 -->
+                        <div class="bringer-lwp-item bringer-block" data-appear="fade-left">
+                            <img src="img/home/service03.jpg" alt="Web Design" width="800" height="1200">
+                            <div class="bringer-lwp-item-content">
+                                <h5>Web Design<span class="bringer-accent">.</span></h5>
+                                <p>We sculpt user-friendly websites that convert visitors into loyal devotees.s with intuitive navigation and flawless experiences for every screen. We craft that digital haven.</p>
+                            </div>
+                        </div>
+                                    
+                        <!-- Item 04 -->
+                        <div class="bringer-lwp-item bringer-block" data-appear="fade-left">
+                            <img src="img/home/service04.jpg" alt="Graphic Design" width="800" height="1200">
+                            <div class="bringer-lwp-item-content">
+                                <h5>Graphic Design<span class="bringer-accent">.</span></h5>
+                                <p>We craft visual masterpieces that sing your brand's story in vibrant colors and captivating shapes. From logos that lodge in minds to infographics that make complex ideas sing.</p>
+                            </div>
+                        </div>
+                                    
+                        <!-- Learn More -->
+                        <div class="align-right">
+                            <a href="services.html" class="bringer-arrow-link">Discover all services</a>
+                        </div>
+                    </div>
+                </div><!-- .bringer-list-with-preview -->
+            </section>
+
             <!-- Section: Steps -->
-            <section class="backlight-top">
+            <section class="backlight-bottom divider-top">
                 <!-- Section Title -->
                 <div class="stg-row bringer-section-title">
                     <div class="stg-col-8 stg-offset-2">
@@ -273,225 +329,94 @@
                 </div>
             </section>
 
-            <!-- Section: Marquee -->
-            <section class="is-fullwidth is-stretched" data-padding="none">
-                <div class="bringer-marquee" data-speed="5000">
-                    <div class="bringer-marquee-inner">
-                        <ul class="bringer-marquee-list">
-                            <li>
-                                <h2>Branding</h2>
-                            </li>
-                            <li>
-                                <h2>Marketing</h2>
-                            </li> 
-                            <li>
-                                <h2>Graphic Design</h2>
-                            </li>
-                            <li>
-                                <h2>Web Design</h2>
-                            </li>
-                            <li>
-                                <h2>UX/UI</h2>
-                            </li>
-                        </ul>
-                    </div><!-- .bringer-marquee-inner -->
-                </div><!-- .bringer-marquee -->
-            </section>
-
-            <!-- Section: Services -->
-            <section class="backlight-bottom">
-                <!-- Section Title -->
-                <div class="stg-row bringer-section-title">
-                    <div class="stg-col-8 stg-offset-2">
-                        <div class="align-center">
-                            <h2 data-appear="fade-up" data-unload="fade-up">Our Services</h2>
-                            <p class="bringer-large-text is-short" data-appear="fade-up" data-unload="fade-up" data-delay="100">We offer a wide range of creative services to help businesses of all sizes achieve their goals.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Section Content -->
-                <div class="stg-row stg-valign-middle stg-large-gap">
-                    <div class="stg-col-4 bringer-tp-grid-2cols bringer-m-grid-1col">
-                        <!-- Icon Box -->
-                        <div class="bringer-image-box" data-appear="fade-right" data-unload="fade-left">
-                            <div class="bringer-image-box-head">
-                                <img src="img/home/service01-thmb.jpg" alt="Branding">
-                                <h5>Branding<span class="bringer-accent">.</span></h5>
-                            </div>
-                            <div class="bringer-image-box-content">
-                                <p>We weave visual stories and craft strategic messaging that resonate at heartstrings, build unwavering trust, and turn customers into fervent brand champions.</p>
-                            </div>
-                        </div><!-- .bringer-image-box -->
-                        <!-- Icon Box -->
-                        <div class="bringer-image-box stg-m-bottom-gap-l" data-appear="fade-right" data-unload="fade-left" data-delay="100">
-                            <div class="bringer-image-box-head">
-                                <img src="img/home/service02-thmb.jpg" alt="Marketing">
-                                <h5>Marketing<span class="bringer-accent">.</span></h5>
-                            </div>
-                            <div class="bringer-image-box-content">
-                                <p>We design data-driven campaigns that crackle with energy, ignite engagement like wildfire, and turn clicks into conversions. We're the storm that propels your brand ever-higher.</p>
-                            </div>
-                        </div><!-- .bringer-image-box -->
-                    </div>
-                    <div class="stg-col-4 stg-tp-col-8 stg-tp-offset-2 stg-tp-bottom-gap-l" data-appear="zoom-out" data-unload="zoom-out" data-delay="150">
-                        <div class="bringer-parallax-media">
-                            <img class="bringer-lazy" src="img/null.png" data-src="img/home/services.jpg" alt="Our Services" width="800" height="1200">
-                        </div>
-                    </div>
-                    <div class="stg-col-4 bringer-tp-grid-2cols bringer-m-grid-1col">
-                        <!-- Icon Box -->
-                        <div class="bringer-image-box" data-appear="fade-left" data-unload="fade-right">
-                            <div class="bringer-image-box-head">
-                                <img src="img/home/service03-thmb.jpg" alt="Web Design">
-                                <h5>Web Design<span class="bringer-accent">.</span></h5>
-                            </div>
-                            <div class="bringer-image-box-content">
-                                <p>We sculpt user-friendly websites that convert visitors into loyal devotees.s with intuitive navigation and flawless experiences for every screen. We craft that digital haven.</p>
-                            </div>
-                        </div><!-- .bringer-image-box -->
-                        <!-- Icon Box -->
-                        <div class="bringer-image-box" data-appear="fade-left" data-unload="fade-right" data-delay="100">
-                            <div class="bringer-image-box-head">
-                                <img src="img/home/service04-thmb.jpg" alt="Graphic Design">
-                                <h5>Graphic Design<span class="bringer-accent">.</span></h5>
-                            </div>
-                            <div class="bringer-image-box-content">
-                                <p>We craft visual masterpieces that sing your brand's story in vibrant colors and captivating shapes. From logos that lodge in minds to infographics that make complex ideas sing.</p>
-                            </div>
-                        </div><!-- .bringer-image-box -->
-                    </div>
-                </div>
-            </section>
-
-            <!-- Section: Portfolio Carousel -->
+            <!-- Section: Portfolio List -->
             <section>
                 <!-- Section Title -->
                 <div class="stg-row bringer-section-title">
                     <div class="stg-col-8 stg-offset-2">
                         <div class="align-center">
-                            <h2 data-appear="fade-up" data-unload="fade-up">Our Portfolio</h2>
-                            <p class="bringer-large-text is-short" data-appear="fade-up" data-unload="fade-up" data-delay="100">We are proud of our work, and we are always looking for new challenges. Take a look at some of our works:</p>
+                            <h2 data-appear="fade-up" data-unload="fade-up">Portfolio</h2>
+                            <p class="bringer-large-text" data-appear="fade-up" data-unload="fade-up" data-delay="100">We are proud of our work, and we are always looking for new challenges. Take a look at some of our recent portfolios:</p>
                         </div>
                     </div>
                 </div>
-                <!-- Portfolio Carousel -->
-                <div class="swiper bringer-carousel stg-bottom-gap-l" data-appear="fade-up" data-unload="fade-up" data-delay="200" data-tp-centered="0">
-                    <div class="swiper-wrapper">
-                        <!-- Card Item 01 -->
-                        <div class="bringer-block bringer-portfolio-card swiper-slide">
-                            <div class="bringer-portfolio-card-image">
-                                <img class="bringer-lazy" src="img/null.png" data-src="img/portfolio/portfolio01.jpg" alt="" width="1200" height="1200">
-                            </div>
-                            <div class="bringer-portfolio-card-footer">
-                                <div class="bringer-portfolio-card-title">
+                <!-- Portfolio List -->
+                <div class="stg-row stg-valign-middle stg-tp-column-reverse">
+                    <div class="stg-col-6" data-unload="fade-left" data-delay="100">
+                        <div class="bringer-grid-1col">
+                            <!-- Portfolio List Item -->
+                            <div class="bringer-block bringer-portfolio-short-item" data-appear="fade-right" data-delay="0">
+                                <div class="bringer-portfolio-thmb">
+                                    <img class="bringer-lazy" src="img/null.png" data-src="img/portfolio/portfolio01-thmb.jpg" alt="" width="1200" height="1200">
+                                </div>
+                                <div class="bringer-portfolio-short-title">
                                     <span class="bringer-meta">Branding</span>
                                     <h6>Curology</h6>
                                 </div>
                                 <span class="bringer-icon bringer-icon-explore"></span>
-                            </div>
-                            <a href="portfolio-post01.html"></a>
-                        </div><!-- .bringer-portfolio-card -->
-                                                
-                        <!-- Card Item 02 -->
-                        <div class="bringer-block bringer-portfolio-card swiper-slide">
-                            <div class="bringer-portfolio-card-image">
-                                <img class="bringer-lazy" src="img/null.png" data-src="img/portfolio/portfolio02.jpg" alt="" width="1200" height="1200">
-                            </div>
-                            <div class="bringer-portfolio-card-footer">
-                                <div class="bringer-portfolio-card-title">
+                                <a href="portfolio-post01.html"></a>
+                            </div><!-- .bringer-portfolio-short-item -->
+                                                        
+                            <!-- Portfolio List Item -->
+                            <div class="bringer-block bringer-portfolio-short-item" data-appear="fade-right" data-delay="100">
+                                <div class="bringer-portfolio-thmb">
+                                    <img class="bringer-lazy" src="img/null.png" data-src="img/portfolio/portfolio02-thmb.jpg" alt="" width="1200" height="1200">
+                                </div>
+                                <div class="bringer-portfolio-short-title">
                                     <span class="bringer-meta">Advertising</span>
                                     <h6>Cookie Dough</h6>
                                 </div>
                                 <span class="bringer-icon bringer-icon-explore"></span>
-                            </div>
-                            <a href="portfolio-post02.html"></a>
-                        </div><!-- .bringer-portfolio-card -->
-                                                
-                        <!-- Card Item 03 -->
-                        <div class="bringer-block bringer-portfolio-card swiper-slide">
-                            <div class="bringer-portfolio-card-image">
-                                <img class="bringer-lazy" src="img/null.png" data-src="img/portfolio/portfolio03.jpg" alt="" width="1200" height="1200">
-                            </div>
-                            <div class="bringer-portfolio-card-footer">
-                                <div class="bringer-portfolio-card-title">
+                                <a href="portfolio-post02.html"></a>
+                            </div><!-- .bringer-portfolio-short-item -->
+                                                        
+                            <!-- Portfolio List Item -->
+                            <div class="bringer-block bringer-portfolio-short-item" data-appear="fade-right" data-delay="200">
+                                <div class="bringer-portfolio-thmb">
+                                    <img class="bringer-lazy" src="img/null.png" data-src="img/portfolio/portfolio03-thmb.jpg" alt="" width="1200" height="1200">
+                                </div>
+                                <div class="bringer-portfolio-short-title">
                                     <span class="bringer-meta">Marketing</span>
                                     <h6>Gaming Power</h6>
                                 </div>
                                 <span class="bringer-icon bringer-icon-explore"></span>
-                            </div>
-                            <a href="portfolio-post03.html"></a>
-                        </div><!-- .bringer-portfolio-card -->
-                                                
-                        <!-- Card Item 04 -->
-                        <div class="bringer-block bringer-portfolio-card swiper-slide">
-                            <div class="bringer-portfolio-card-image">
-                                <img class="bringer-lazy" src="img/null.png" data-src="img/portfolio/portfolio04.jpg" alt="" width="1200" height="1200">
-                            </div>
-                            <div class="bringer-portfolio-card-footer">
-                                <div class="bringer-portfolio-card-title">
+                                <a href="portfolio-post03.html"></a>
+                            </div><!-- .bringer-portfolio-short-item -->
+                                                        
+                            <!-- Portfolio List Item -->
+                            <div class="bringer-block bringer-portfolio-short-item" data-appear="fade-right" data-delay="300">
+                                <div class="bringer-portfolio-thmb">
+                                    <img class="bringer-lazy" src="img/null.png" data-src="img/portfolio/portfolio04-thmb.jpg" alt="" width="1200" height="1200">
+                                </div>
+                                <div class="bringer-portfolio-short-title">
                                     <span class="bringer-meta">Advertising</span>
                                     <h6>Riot Energy</h6>
                                 </div>
                                 <span class="bringer-icon bringer-icon-explore"></span>
-                            </div>
-                            <a href="portfolio-post04.html"></a>
-                        </div><!-- .bringer-portfolio-card -->
-                                                
-                        <!-- Card Item 05 -->
-                        <div class="bringer-block bringer-portfolio-card swiper-slide">
-                            <div class="bringer-portfolio-card-image">
-                                <img class="bringer-lazy" src="img/null.png" data-src="img/portfolio/portfolio05.jpg" alt="" width="1200" height="1200">
-                            </div>
-                            <div class="bringer-portfolio-card-footer">
-                                <div class="bringer-portfolio-card-title">
-                                    <span class="bringer-meta">Marketing</span>
-                                    <h6>Smoothie</h6>
+                                <a href="portfolio-post04.html"></a>
+                            </div><!-- .bringer-portfolio-short-item -->
+                            
+                            <!-- Learn More -->
+                            <div class="bringer-portfolio-short-item bringer-portfolio-short-more" data-appear="fade-right" data-delay="400">
+                                <div class="bringer-portfolio-short-title">
+                                    <span class="bringer-label">Click to explore</span>
+                                    <h6>Full Portfolio</h6>
                                 </div>
                                 <span class="bringer-icon bringer-icon-explore"></span>
-                            </div>
-                            <a href="portfolio-post05.html"></a>
-                        </div><!-- .bringer-portfolio-card -->
-                                                
-                        <!-- Card Item 06 -->
-                        <div class="bringer-block bringer-portfolio-card swiper-slide">
-                            <div class="bringer-portfolio-card-image">
-                                <img class="bringer-lazy" src="img/null.png" data-src="img/portfolio/portfolio06.jpg" alt="" width="1200" height="1200">
-                            </div>
-                            <div class="bringer-portfolio-card-footer">
-                                <div class="bringer-portfolio-card-title">
-                                    <span class="bringer-meta">Branding</span>
-                                    <h6>Positive Beverage</h6>
-                                </div>
-                                <span class="bringer-icon bringer-icon-explore"></span>
-                            </div>
-                            <a href="portfolio-post06.html"></a>
-                        </div><!-- .bringer-portfolio-card -->
-                        
-                        <!-- Card Item 07 -->
-                        <div class="bringer-block bringer-portfolio-card swiper-slide">
-                            <div class="bringer-portfolio-card-image">
-                                <img class="bringer-lazy" src="img/null.png" data-src="img/portfolio/portfolio07.jpg" alt="" width="1200" height="1200">
-                            </div>
-                            <div class="bringer-portfolio-card-footer">
-                                <div class="bringer-portfolio-card-title">
-                                    <span class="bringer-meta">Branding</span>
-                                    <h6>Fashion Makeup</h6>
-                                </div>
-                                <span class="bringer-icon bringer-icon-explore"></span>
-                            </div>
-                            <a href="portfolio-post07.html"></a>
-                        </div><!-- .bringer-portfolio-card -->
+                                <a href="portfolio-infinite-list.html"></a>
+                            </div><!-- .bringer-portfolio-short-more -->
+                        </div>
                     </div>
-                    <!-- Pagination -->
-                    <div class="swiper-pagination bringer-dots"></div>
-                </div><!-- .bringer-portfolio-carousel -->
-                <div class="align-center" data-appear="fade-up" data-unload="zoom-out" data-delay="300">
-                    <a href="portfolio-slider.html" class="bringer-button">Discover Full Portfolio</a>
+                    <div class="stg-col-6 stg-tp-bottom-gap" data-unload="fade-right" data-delay="200">
+                        <div class="bringer-parallax-media" data-appear="fade-left">
+                            <img class="bringer-lazy" src="img/null.png" data-src="img/home/portfolio.jpg" alt="Our Portfolio" width="960" height="1095">
+                        </div>
+                    </div>
                 </div>
             </section>
 
             <!-- Section: Testimonials -->
-            <section class="backlight-top">
+            <section class="divider-top">
                 <!-- Section Title -->
                 <div class="stg-row bringer-section-title">
                     <div class="stg-col-8 stg-offset-2">
@@ -503,12 +428,12 @@
                 </div>
                 <!-- Testimonials -->
                 <div class="stg-row">
-                    <div class="stg-col-6 stg-tp-col-8 stg-tp-offset-2 stg-tp-bottom-gap" data-unload="fade-left">
+                    <div class="stg-col-6 stg-tp-col-8 stg-tp-offset-2 stg-tp-bottom-gap" data-unload="fade-left" data-delay="100">
                         <div class="bringer-parallax-media" data-appear="fade-right" data-threshold="0">
                             <img class="bringer-lazy" src="img/null.png" data-src="img/home/testimonials02.jpg" alt="What Our Clients Say" width="850" height="1200">
                         </div>
                     </div>
-                    <div class="stg-col-6" data-unload="fade-right">
+                    <div class="stg-col-6" data-unload="fade-right" data-delay="200">
                         <div class="bringer-grid-1col stg-normal-gap">
                             <!-- Card Item -->
                             <div class="bringer-block bringer-tetimonials-card" data-appear="fade-left" data-delay="0">
@@ -557,7 +482,7 @@
                                     </div>
                                 </div>
                             </div><!-- .bringer-tetimonials-card -->
-                            
+
                             <!-- Learn More -->
                             <div class="align-right">
                                 <a href="testimonials.html" class="bringer-arrow-link">Read all testimonials</a>
@@ -568,61 +493,25 @@
             </section>
 
             <!-- Section: CTA Form -->
-            <section class="backlight-top is-fullwidth">
-                <div class="stg-row stg-valign-middle stg-cta-with-image stg-tp-column-reverse">
-                    <div class="stg-col-5" data-unload="fade-left">
-                        <div class="bringer-offset-image" data-bg-src="img/cta/contact-section-bg.jpg" data-appear="fade-up" data-threshold="0.25"></div>
-                        <form action="mail.php" method="post" class="bringer-contact-form bringer-block" data-fill-error="Please, fill out the contact form." data-appear="fade-right" data-threshold="0.25">
-                            <div class="bringer-form-content">
-                                <!-- Field: Name -->
-                                <label for="name">Your Name</label>
-                                <input type="text" id="name" name="name" placeholder="Your Name" required>
-                                <!-- Field: Email -->
-                                <label for="email">Your Email</label>
-                                <input type="email" id="email" name="email" placeholder="email@example.com" required>    
-                                <!-- Field: Message -->
-                                <label for="message">Your Message</label>
-                                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
-                                <!-- Form Button -->
-                                <button type="submit" value="Send Message">Get a FREE Quote</button>
-                                <div class="bringer-contact-form__response"></div>
+            <section data-padding="bottom">
+                <div class="bringer-masked-cta bringer-masked-block" data-unload="fade-down">
+                    <form action="mail-short.php" method="post" data-fill-error="Please, fill out the form." class="bringer-contact-form is-short bringer-masked-media" data-appear="fade-up">
+                        <div class="bringer-form-content bringer-cta-form">
+                            <div class="bringer-cta-form-content" data-appear="fade-up" data-delay="100">
+                                <div class="bringer-cta-title">Ready to set your Brand ablaze?</div>
+                                <input type="email" id="subscribe_email" name="subscribe_email" placeholder="email@example.com" required>
                             </div>
-                            <span class="bringer-form-spinner"></span>
-                        </form>
-                    </div>
-                    <div class="stg-col-6 stg-offset-1" data-unload="fade-right">
-                        <div class="bringer-cta-form-content">
-                            <div class="bringer-cta-form-title" data-split-appear="fade-up" data-split-delay="100" data-split-by="line">
-                                Let's discuss your next creative project.
+                            <div class="bringer-cta-form-button" data-appear="fade-up" data-delay="200">
+                                <button type="submit">
+                                    <span class="bringer-icon bringer-icon-arrow-submit"></span>
+                                </button>
                             </div>
-                            <div class="bringer-cta-text">
-                                <div class="stg-row stg-valign-middle">
-                                    <div class="stg-col-2 stg-offset-2 stg-tp-col-1 stg-tp-offset-3 stg-m-col-1 stg-m-offset-2" data-appear="fade-right">
-                                        <i class="bringer-cta-icon"></i>
-                                    </div>
-                                    <div class="stg-col-8 stg-tp-col-7 stg-m-col-8 stg-m-offset-1" data-appear="fade-left">
-                                        <p class="bringer-large-text">We help creative agencies, designers, and other creative people showcase their perfect work.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bringer-cta-counters bringer-grid-3cols bringer-m-grid-3cols" data-stagger-appear="fade-up" data-stagger-delay="100">
-                                <!-- Counter Item -->
-                                <div class="bringer-counter bringer-small-counter" data-delay="3000">
-                                    <div class="bringer-counter-number">420</div>
-                                    <div class="bringer-counter-label">Projects Done</div>
-                                </div><!-- .bringer-counter -->
-                                <!-- Counter Item -->
-                                <div class="bringer-counter bringer-small-counter" data-delay="3000">
-                                    <div class="bringer-counter-number" data-suffix="K+">8</div>
-                                    <div class="bringer-counter-label">Happy Clients</div>
-                                </div><!-- .bringer-counter -->
-                                <!-- Counter Item -->
-                                <div class="bringer-counter bringer-small-counter" data-delay="3000">
-                                    <div class="bringer-counter-number" data-suffix="+">12</div>
-                                    <div class="bringer-counter-label">Years in Work</div>
-                                </div><!-- .bringer-counter -->
-                            </div>
+                            <div class="bringer-contact-form__response"></div>
                         </div>
+                        <span class="bringer-form-spinner"></span>
+                    </form>
+                    <div class="bringer-masked-cta-content bringer-masked-content at-top-right">
+                        <p class="bringer-large-text" data-appear="fade-down">Let's craft a visual identity that ignites passion and loyalty. ✨</p>
                     </div>
                 </div>
             </section>
