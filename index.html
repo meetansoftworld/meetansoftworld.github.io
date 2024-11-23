@@ -198,27 +198,37 @@
                             <div class="swiper-wrapper">
                                 <!-- Slider Item -->
                                 <div class="swiper-slide">
-                                    <img src="img/home/home04-hero1.jpg" alt="Enterprise Cybersecurity Solutions" width="1200" height="600">
+                                    <div class="hero-image-container">
+                                        <img src="img/home/home04-hero1.png" alt="Enterprise Cybersecurity Solutions" width="1920" height="960">
+                                    </div>
                                 </div>
                                 <!-- Slider Item -->
                                 <div class="swiper-slide">
-                                    <img src="img/home/home04-hero2.jpg" alt="DevOps and Cloud Architecture" width="1200" height="600">
+                                    <div class="hero-image-container">
+                                        <img src="img/home/home04-hero2.png" alt="DevOps and Cloud Architecture" width="1920" height="960">
+                                    </div>
                                 </div>
                                 <!-- Slider Item -->
                                 <div class="swiper-slide">
-                                    <img src="img/home/home04-hero3.jpg" alt="AI and Machine Learning Solutions" width="1200" height="600">
+                                    <div class="hero-image-container">
+                                        <img src="img/home/home04-hero3.png" alt="AI and Machine Learning Solutions" width="1920" height="960">
+                                    </div>
                                 </div>
                                 <!-- Slider Item -->
                                 <div class="swiper-slide">
-                                    <img src="img/home/home04-hero4.jpg" alt="Digital Transformation Services" width="1200" height="600">
+                                    <div class="hero-image-container">
+                                        <img src="img/home/home04-hero4.png" alt="Digital Transformation Services" width="1920" height="960">
+                                    </div>
                                 </div>
                                 <!-- Slider Item -->
                                 <div class="swiper-slide">
-                                    <img src="img/home/home04-hero5.jpg" alt="Enterprise Technology Solutions" width="1200" height="600">
+                                    <div class="hero-image-container">
+                                        <img src="img/home/home04-hero5.png" alt="Enterprise Technology Solutions" width="1920" height="960">
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- Masked Navigation -->
+                        <!-- Navigation remains the same -->
                         <div class="bringer-slider-nav bringer-masked-content at-bottom-right">
                             <a href="#" class="bringer-slider-prev">
                                 <span class="bringer-icon bringer-icon-chevron-left"></span>
@@ -228,13 +238,12 @@
                             </a>
                         </div>
                     </div>
-                    <!-- Info Line -->
+                    <!-- Rest of the content remains the same -->
                     <div class="bringer-hero-info-line">
                         <div data-appear="fade-up" data-delay="50">500+ Enterprise Solutions</div>
                         <div data-appear="fade-up" data-delay="150">Since 2020</div>
                         <div data-appear="fade-up" data-delay="250">99.9% Success Rate</div>
                     </div>
-                    <!-- Title -->
                     <div class="align-center">
                         <div class="stg-bottom-gap">
                             <h1 class="bringer-page-title is-large" data-appear="fade-up" data-delay="100" data-threshold="0">Meetan Soft World</h1>
@@ -243,6 +252,65 @@
                     </div>
                 </div>
             </section>
+            
+            <style>
+            /* Add these styles to your CSS */
+            .bringer-hero-media-wrap {
+                width: 100%;
+                position: relative;
+                overflow: hidden;
+                background-color: #000; /* Matches your dark theme */
+            }
+            
+            .hero-image-container {
+                width: 100%;
+                height: 0;
+                padding-bottom: 50%; /* Maintains 1920x960 aspect ratio (960/1920 = 0.5 = 50%) */
+                position: relative;
+                overflow: hidden;
+            }
+            
+            .hero-image-container img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover; /* Ensures image covers the container while maintaining aspect ratio */
+                object-position: center; /* Centers the image */
+            }
+            
+            .swiper-slide {
+                width: 100%;
+                overflow: hidden;
+                border-radius: 12px; /* Optional: adds rounded corners to slides */
+            }
+            
+            /* Ensures the slider container maintains proper dimensions */
+            .bringer-slider {
+                width: 100%;
+                height: auto;
+            }
+            
+            /* Optional: Add a subtle gradient overlay to ensure text readability */
+            .hero-image-container::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(0deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 100%);
+                pointer-events: none;
+            }
+            
+            /* Responsive adjustments */
+            @media (max-width: 768px) {
+                .hero-image-container {
+                    padding-bottom: 56.25%; /* 16:9 aspect ratio for mobile if needed */
+                }
+            }
+            </style>
 
             <!-- Section: About -->
             <section class="backlight-bottom">
