@@ -1,126 +1,134 @@
 /* sitemap.xml */
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Main pages -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+        http://www.google.com/schemas/sitemap-image/1.1
+        http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd
+        http://www.google.com/schemas/sitemap-video/1.1
+        http://www.google.com/schemas/sitemap-video/1.1/sitemap-video.xsd">
+
+  <!-- Homepage with high priority and frequent updates -->
   <url>
     <loc>https://meetansoftworld.com/</loc>
-    <changefreq>weekly</changefreq>
+    <lastmod>2024-11-23</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://meetansoftworld.com/img/logo.png</image:loc>
+      <image:title>Meetan Soft World - Professional Software Solutions</image:title>
+    </image:image>
   </url>
-  <url>
-    <loc>https://meetansoftworld.com/about-me.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://meetansoftworld.com/about-us.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://meetansoftworld.com/contacts.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://meetansoftworld.com/faq.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+
+  <!-- Primary Service Pages -->
   <url>
     <loc>https://meetansoftworld.com/services.html</loc>
+    <lastmod>2024-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://meetansoftworld.com/img/inner-pages/services.jpg</image:loc>
+      <image:title>Our Professional Services</image:title>
+    </image:image>
   </url>
+
+  <!-- Core Business Pages -->
   <url>
-    <loc>https://meetansoftworld.com/service-details.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <!-- Portfolio pages -->
-  <url>
-    <loc>https://meetansoftworld.com/portfolio-column.html</loc>
+    <loc>https://meetansoftworld.com/about-us.html</loc>
+    <lastmod>2024-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://meetansoftworld.com/img/inner-pages/about-us.jpg</image:loc>
+      <image:title>About Our Company</image:title>
+    </image:image>
   </url>
+  
+  <url>
+    <loc>https://meetansoftworld.com/about-me.html</loc>
+    <lastmod>2024-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://meetansoftworld.com/img/inner-pages/about-me-01.jpg</image:loc>
+      <image:title>Personal Profile</image:title>
+    </image:image>
+  </url>
+
+  <!-- Portfolio Main Pages with Rich Media -->
   <url>
     <loc>https://meetansoftworld.com/portfolio-grid.html</loc>
+    <lastmod>2024-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://meetansoftworld.com/img/home/portfolio.jpg</image:loc>
+      <image:title>Our Project Portfolio</image:title>
+    </image:image>
   </url>
-  <url>
-    <loc>https://meetansoftworld.com/portfolio-infinite-list.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://meetansoftworld.com/portfolio-slider.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <!-- Individual portfolio posts -->
+
+  <!-- Individual Portfolio Posts with Rich Media -->
   <url>
     <loc>https://meetansoftworld.com/portfolio-post01.html</loc>
+    <lastmod>2024-11-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://meetansoftworld.com/portfolio-post02.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://meetansoftworld.com/portfolio-post03.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://meetansoftworld.com/portfolio-post04.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://meetansoftworld.com/portfolio-post05.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://meetansoftworld.com/portfolio-post06.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://meetansoftworld.com/portfolio-post07.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://meetansoftworld.com/portfolio-post08.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://meetansoftworld.com/portfolio-post09.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://meetansoftworld.com/img/portfolio/portfolio01/image01.jpg</image:loc>
+      <image:title>Portfolio Project 1</image:title>
+    </image:image>
   </url>
   
-  <!-- Other pages -->
+  <!-- Continue similar structure for portfolio-post02 through portfolio-post09 -->
+
+  <!-- Video Content Page -->
   <url>
-    <loc>https://meetansoftworld.com/pricing.html</loc>
-    <changefreq>monthly</changefreq>
+    <loc>https://meetansoftworld.com/index.html</loc>
+    <video:video>
+      <video:thumbnail_loc>https://meetansoftworld.com/img/home/home03-hero1.jpg</video:thumbnail_loc>
+      <video:title>Welcome to Meetan Soft World</video:title>
+      <video:description>Experience our professional software development services</video:description>
+      <video:content_loc>https://meetansoftworld.com/video/home03.mp4</video:content_loc>
+    </video:video>
+  </url>
+
+  <!-- Conversion Pages -->
+  <url>
+    <loc>https://meetansoftworld.com/contacts.html</loc>
+    <lastmod>2024-11-23</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <url>
+    <loc>https://meetansoftworld.com/pricing.html</loc>
+    <lastmod>2024-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Trust Building Pages -->
+  <url>
+    <loc>https://meetansoftworld.com/testimonials.html</loc>
+    <lastmod>2024-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <url>
     <loc>https://meetansoftworld.com/team-member.html</loc>
+    <lastmod>2024-11-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+
   <url>
-    <loc>https://meetansoftworld.com/testimonials.html</loc>
+    <loc>https://meetansoftworld.com/faq.html</loc>
+    <lastmod>2024-11-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
 </urlset>

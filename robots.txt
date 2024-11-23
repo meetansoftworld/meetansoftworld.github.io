@@ -1,33 +1,85 @@
 
 /* robots.txt */
+# Meetan Soft World Robots.txt - Optimized for SEO
+# Updated: 2024-11-23
+
+# Global Rules
 User-agent: *
 Allow: /
-Allow: /about-me.html
+
+# Important Pages - Explicitly Allow
+Allow: /index.html
 Allow: /about-us.html
-Allow: /contacts.html
-Allow: /faq.html
+Allow: /about-me.html
 Allow: /services.html
 Allow: /portfolio-*.html
+Allow: /contacts.html
 Allow: /pricing.html
-Allow: /team-member.html
 Allow: /testimonials.html
+Allow: /faq.html
 
-# Prevent access to certain directories
+# SEO Optimizations
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.webp$
+Allow: /*.svg$
+Allow: /*.pdf$
+
+# Protected Directories and Files
 Disallow: /css/
 Disallow: /js/
-Disallow: /img/
-Disallow: /video/
 Disallow: /mail.php
 Disallow: /mail-short.php
+Disallow: /*?*
+Disallow: /*?
+Disallow: /*&
+Disallow: /*.php$
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /admin/
+Disallow: /includes/
 
-# Allow crawling of image files that need to be indexed
+# Allow Image Directory Selectively
 Allow: /img/*.jpg$
+Allow: /img/*.jpeg$
 Allow: /img/*.png$
 Allow: /img/*.gif$
 Allow: /img/*.webp$
+Allow: /img/*.svg$
 
-# Sitemap location
+# Special Rules for Major Search Engines
+User-agent: Googlebot
+Crawl-delay: 5
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /img/
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.webp$
+Allow: /*.svg$
+
+User-agent: Bingbot
+Crawl-delay: 5
+Allow: /
+
+User-agent: DuckDuckBot
+Crawl-delay: 5
+Allow: /
+
+# Block Bad Bots
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+# XML Sitemaps
 Sitemap: https://meetansoftworld.com/sitemap.xml
 
-# Crawl-delay for all bots
-Crawl-delay: 10
+# Host Directive (Helps with Duplicate Content)
+Host: https://meetansoftworld.com
