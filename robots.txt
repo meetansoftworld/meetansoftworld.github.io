@@ -1,0 +1,33 @@
+
+/* robots.txt */
+User-agent: *
+Allow: /
+Allow: /about-me.html
+Allow: /about-us.html
+Allow: /contacts.html
+Allow: /faq.html
+Allow: /services.html
+Allow: /portfolio-*.html
+Allow: /pricing.html
+Allow: /team-member.html
+Allow: /testimonials.html
+
+# Prevent access to certain directories
+Disallow: /css/
+Disallow: /js/
+Disallow: /img/
+Disallow: /video/
+Disallow: /mail.php
+Disallow: /mail-short.php
+
+# Allow crawling of image files that need to be indexed
+Allow: /img/*.jpg$
+Allow: /img/*.png$
+Allow: /img/*.gif$
+Allow: /img/*.webp$
+
+# Sitemap location
+Sitemap: https://meetansoftworld.com/sitemap.xml
+
+# Crawl-delay for all bots
+Crawl-delay: 10
