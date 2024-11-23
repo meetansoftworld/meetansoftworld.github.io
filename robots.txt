@@ -1,5 +1,4 @@
 
-/* robots.txt */
 # Meetan Soft World Robots.txt - Optimized for SEO
 # Updated: 2024-11-23
 
