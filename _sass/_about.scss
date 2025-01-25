@@ -1,0 +1,13 @@
+.marquee {
+  // ...existing code...
+  animation: marquee 40s linear infinite; // Increased to 40 seconds
+  animation-play-state: running;
+  &:hover {
+    animation-play-state: paused; // Pauses on hover
+  }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
